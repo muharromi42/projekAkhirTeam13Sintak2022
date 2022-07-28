@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+* {
+  font-family: Poppins;
+}
+/* navbar */
+#navbar .active {
+  color: grey;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  padding: 0 30px;
+  font-size: 1.1em;
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: grey;
+}
+
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: grey;
+  color: transparent;
+  width: 0%;
+  content: ".";
+  height: 3px;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 50%;
+}
+
+/* banner */
+#banner .gambarBanner {
+  margin-top: 124px;
+  margin-bottom: 124px;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+/* menu */
+
+#menu .card {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#menu .card-tittle {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#menu img {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+#menu a {
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+/* footer */
+#footer hr {
+  margin-top: 151px;
+  border: 2px solid grey;
+}
+
+#footer a:hover {
+  color: grey;
+}
+
+#footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer ul li {
+  list-style: none;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: #acacac;
+  font-size: 16px;
+  margin: 8px 0px;
+  display: block;
+}
+
+#footer .text-dark {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-bottom: auto;
+}
